@@ -62,12 +62,12 @@ $(document).ready(function(e) {
 		time = getTimeShow(time);
 		var data = msgData.data;
 		if (data.to=='all') {
-			addMsg('<div>'+data.from+'('+time+')说：<br/>'+data.msg+'</div>');
+			addMsg('<div>'+data.from+'('+time+')：<br/>'+data.msg+'</div>');
 		} else if(data.from == from) {
-			addMsg('<div>我('+time+')对'+data.to+'说：<br/>'+data.msg+'</div>');
+			addMsg('<div>我('+time+')对'+data.to+'：<br/>'+data.msg+'</div>');
 		} else if(data.to == from)
 		{
-			addMsg('<div>'+data.from+'('+time+')对我说：<br/>'+data.msg+'</div>');
+			addMsg('<div>'+data.from+'('+time+')：<br/>'+data.msg+'</div>');
 			play_ring("/ring/msg.wav");
 		}
 	});

@@ -24,7 +24,7 @@ button{
   padding: 0 20px;
   text-align: center;
   text-decoration: none;
-  text-shadow: 1px 1px 1px rgba(255,255,255,.22);
+  text-shadow: 1px 1px 1px #0099FF;
   font: bold 12px/25px Arial, sans-serif;
 
   -webkit-border-radius: 30px;

@@ -129,12 +129,12 @@
   outline: none;
   padding: 10px;
   overflow:auto;
-  background: #eee;
-  background: rgba(0,0,0,0.1);
+  background: #ffffff;
+  background: #ffffff;
 }
 #sayingto{
-  background: #999;
-  background: rgba(0,0,0,0.3);
+  background: #ffffff;
+  background: #70c9e3;
   position: absolute;
   left: 5px;
   right: 105px;
@@ -169,5 +169,5 @@
   font-family: "幼圆","微软雅黑","黑体","宋体";
   color: #eee;
   background: #666;
-  background: rgba(0,0,0,0.5);
+  background: #0099FF;
 }
